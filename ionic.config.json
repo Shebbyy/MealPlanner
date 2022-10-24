@@ -1,0 +1,7 @@
+{
+  "name": "Shebby Meal Prepper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
