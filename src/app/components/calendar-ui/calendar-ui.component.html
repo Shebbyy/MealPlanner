@@ -1,0 +1,21 @@
+<ion-content>
+  <h3 class="calendar-header">{{headerText}}</h3>
+  <section>
+    <ion-row *ngFor="let day of week" (click)="openDayView(day)">
+      <ion-grid>
+        <ion-row>{{day.name}}</ion-row>
+        <ion-row>
+          <ion-col>{{day.stat1}}</ion-col>
+          <ion-col>{{day.stat2}}</ion-col>
+          <ion-col>{{day.stat3}}</ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
+    <ion-row>Tuesday</ion-row>
+    <ion-row>Wednesday</ion-row>
+    <ion-row>Thursday</ion-row>
+    <ion-row>Friday</ion-row>
+    <ion-row>Saturday</ion-row>
+    <ion-row>Sunday</ion-row>
+  </section>
+</ion-content>

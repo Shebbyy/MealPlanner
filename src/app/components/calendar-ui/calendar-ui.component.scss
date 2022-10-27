@@ -1,0 +1,21 @@
+.calendar-header {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  height: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: calc(97% - 2rem);
+  overflow: hidden;
+}
+
+section>* {
+  flex: 1 1;
+  border: 1px solid rgb(77, 77, 77);
+  padding-left: 0.6rem;
+  padding-top: 0.2rem;
+}

@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { CalendarPageRoutingModule } from './calendar-routing.module';
 
 import { CalendarPage } from './calendar.page';
+import { CalendarUiComponent } from 'src/app/components/calendar-ui/calendar-ui.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { CalendarPage } from './calendar.page';
     IonicModule,
     CalendarPageRoutingModule
   ],
-  declarations: [CalendarPage]
+  declarations: [
+    CalendarPage,
+    CalendarUiComponent
+  ]
 })
 export class CalendarPageModule {}
