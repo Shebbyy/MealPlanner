@@ -39,6 +39,7 @@
     "@angular/language-service": "^14.0.0",
     "@ionic/angular-toolkit": "^6.0.0",
     "@ionic/lab": "3.2.15",
+    "@microsoft/eslint-formatter-sarif": "^3.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
